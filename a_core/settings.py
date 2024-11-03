@@ -32,9 +32,9 @@ if ENVIRONMENT == 'development':
 else:
     DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'https://real-time-chat-lkk8.onrender.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '*']
 
-CSRF_TRUSTED_ORIGINS = [ 'https://real-time-chat-lkk8.onrender.com' ]
+CSRF_TRUSTED_ORIGINS = [ 'https://*' ]
 
 # Application definition
 
